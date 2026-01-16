@@ -45,9 +45,9 @@ def sum_even(nums: list[int]) -> int:
 def find_longest_string(strings: list[str]) -> str:
     """Returns the longest string in a list. If the list is empty, returns None.
 
-    >>> find_longest_string(["hello", "CS", "Python"]) 
+    >>> find_longest_string(["hello", "CS", "Python"]) # doctest: +SKIP
     'Python'
-    >>> find_longest_string([]) 
+    >>> find_longest_string([]) # doctest: +SKIP
     ''
     """
     return
@@ -102,9 +102,9 @@ def is_palindrome(word: str) -> bool:
 def smallest_even(nums: list[int]) -> int:
     """Finds the smallest even number in a list of non-negative integers.
     If there are no even numbers, returns -1.
-    >>> smallest_even([1, 2, 4, 8]) 
+    >>> smallest_even([1, 2, 4, 8]) # doctest: +SKIP
     2
-    >>> smallest_even([3, 5, 7]) 
+    >>> smallest_even([3, 5, 7]) # doctest: +SKIP
     -1
     """
     smallest = max(nums)

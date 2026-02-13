@@ -170,4 +170,3 @@ def average_price(entries: list[tuple[str, float]]) -> list[tuple[str, float]]:
 if __name__ == "__main__":
     import doctest
     doctest.testmod()
-

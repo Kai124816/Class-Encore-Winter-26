@@ -43,7 +43,6 @@ def is_stable(old_centroids: list[int], new_centroids: list[int]) -> bool:
     >>> is_stable([], [])
     True
     """
-    pass
 
 #Problem 4
 def above_average(grades: dict[str, float]) -> list[str]:

@@ -27,7 +27,11 @@ def word_lengths(words: list[str]) -> dict[str, int]:
     >>> word_lengths(["hi", "hi", "bye"]) # doctest: +SKIP
     {'hi': 2, 'bye': 3}
     """
-    pass
+    result = {}
+    for word in words:
+        length = len(word)
+        result[word] = length
+        result[word] += 1
 
 #Problem 3
 def is_stable(old_centroids: list[int], new_centroids: list[int]) -> bool:
@@ -43,7 +47,7 @@ def is_stable(old_centroids: list[int], new_centroids: list[int]) -> bool:
     >>> is_stable([], [])
     True
     """
-    pass
+    
 
 #Problem 4
 def above_average(grades: dict[str, float]) -> list[str]:
